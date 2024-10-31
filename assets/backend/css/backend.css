@@ -1,0 +1,707 @@
+/*==========================================================================
+FLATICON
+===========================================================================*/
+[class^="flaticon-"],
+[class*=" flaticon-"],
+[class^="flaticon-"],
+[class*=" flaticon-"] {
+    display: inline-block;
+}
+
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+    display: block;
+    font-size: inherit !important;
+    margin-left: 0 !important;
+}
+
+.vc_add-element-container .vc_element-icon.fa,
+.vc_add-element-container .vc_element-icon.ti,
+.wpb_content_element > .wpb_element_wrapper > .wpb_element_title .vc_element-icon.fa,
+.wpb_content_element > .wpb_element_wrapper > .wpb_element_title .vc_element-icon.ti,
+.vc_element-icon, .vc_general.vc_element-icon.ti {
+    font-size: 33px;
+    background: none;
+    top: 18px;
+}
+
+.edit_form_line .container-select_preview .vc_ui-button {
+    border: none !important;
+}
+
+.ovic-select-preview-modal .ovic-modal-load {
+    padding: 10px;
+}
+
+.ovic-select-preview-modal .ovic-modal-load > div {
+    display: flex;
+}
+
+.ovic-select-preview-modal .ovic-modal-load .select-preview.selected {
+    border-color: #dd6a6a;
+}
+
+.ovic-select-preview-modal .ovic-modal-load .select-preview.selected .title {
+    background-color: #dd6a6a;
+}
+
+.ovic-select-preview-modal .ovic-modal-load .select-preview {
+    width: calc(25% - 20px);
+    margin: 10px;
+    border: 1px solid #aaa;
+    padding: 5px;
+    padding-bottom: 30px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.ovic-select-preview-modal .ovic-modal-load .select-preview .title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 14px;
+    line-height: 30px;
+    background-color: #aaa;
+}
+
+div.chosen-container {
+    width: 100% !important;
+}
+
+div.chosen-container-multi .chosen-choices {
+    padding: 0 8px;
+}
+
+div.chosen-container-multi .chosen-choices li.search-choice {
+    padding: 5px 20px 5px 10px;
+    border-radius: 0;
+}
+
+div.chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+div.chosen-container-multi .chosen-choices li.search-field {
+    line-height: 30px;
+}
+
+.wpb_ovic_vc_tabs > .vc_controls, .wpb_ovic_accordion > .vc_controls {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+    visibility: visible;
+    position: relative;
+    height: 23px;
+    margin: 18px 0 2px;
+    border: 1px dotted #e6e6e6;
+    border-bottom-width: 0;
+}
+
+.wpb_ovic_vc_tabs.vc_shortcodes_container, .wpb_ovic_accordion.vc_shortcodes_container {
+    background: 0 0;
+}
+
+.wpb_ovic_vc_tabs.vc_general .vc_tta-tab > a, .wpb_ovic_accordion.vc_general .vc_tta-tab > a {
+    padding: 10px 14px;
+}
+
+.wpb_el_type_taxonomy .chosen-container {
+    min-width: 200px;
+    width: 100% !important;
+}
+
+.wpb_el_type_taxonomy .chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+    height: auto;
+}
+
+.nav-tab.active {
+    background-color: #fff;
+    color: #444;
+}
+
+.nav-tab:first-child {
+    margin-left: 0;
+}
+
+/*==========================================================================
+HTML MARKUP FIELD
+===========================================================================*/
+.vc_edit-form-tab .wpb_el_type_html_markup .plugin-tabs-css {
+    text-align: right;
+    background-color: #F5F5F5;
+}
+
+.vc_edit-form-tab .wpb_el_type_html_markup .tab-item {
+    line-height: 1;
+    display: inline-block;
+    padding: 12px 15px;
+    cursor: pointer;
+    position: relative;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.vc_edit-form-tab .wpb_el_type_html_markup .tab-item.active,
+.vc_edit-form-tab .wpb_el_type_html_markup .tab-item:hover {
+    color: #fff;
+    background-color: #42bce2;
+}
+
+.vc_edit-form-tab .wpb_el_type_html_markup .tab-item.active::after {
+    border: 5px solid transparent;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: transparent;
+    border-top: 5px solid #42bce2;
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    content: "";
+    transform: translateX(-50%);
+}
+
+/*==========================================================================
+TAB TITLE
+===========================================================================*/
+.vc_edit-form-tab .wpb_el_type_html_markup .tabs-title {
+    text-align: center;
+    background: #F5F5F5;
+    padding: 15px;
+}
+
+.vc_edit-form-tab .wpb_el_type_html_markup .tabs-title .title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/*==========================================================================
+CHECKBOX ON OFF
+===========================================================================*/
+.ovic-vc-checkbox-field .vc_checkbox-label {
+    position: relative;
+    width: 60px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    display: inline-block;
+}
+
+.ovic-vc-checkbox-field .vc_checkbox-label input.wpb_vc_param_value {
+    display: none;
+}
+
+.ovic-vc-checkbox-field .vc_checkbox-label label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    height: 25px;
+    padding: 0;
+    line-height: 25px;
+    border: 2px solid #E3E3E3;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.ovic-vc-checkbox-field .vc_checkbox-label label:before {
+    content: "";
+    display: block;
+    width: 25px;
+    margin: 0;
+    background: #FFFFFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 33px;
+    border: 2px solid #E3E3E3;
+    border-radius: 25px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.ovic-vc-checkbox-field .vc_checkbox-label input:checked + label {
+    background-color: #5CC659;
+}
+
+.ovic-vc-checkbox-field .vc_checkbox-label input:checked + label,
+.ovic-vc-checkbox-field .vc_checkbox-label input:checked + label:before {
+    border-color: #5CC659;
+}
+
+.ovic-vc-checkbox-field .vc_checkbox-label input:checked + label:before {
+    right: 0;
+}
+
+/*==========================================================================
+FORM EDITOR
+===========================================================================*/
+.dashboard-ovic-vc > .title {
+    padding: 15px;
+    line-height: 30px;
+}
+
+.dashboard-ovic-vc .dashboard-intro > * {
+    padding: 0 15px !important;
+}
+
+.dashboard-ovic-vc .ovic_vc_options .remove {
+    padding: 0;
+    font-size: 16px;
+    text-decoration: none;
+    color: red;
+}
+
+.dashboard-ovic-vc .ovic_vc_options .remove:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.dashboard-ovic-vc .dashboard-intro {
+    display: table;
+    position: relative;
+}
+
+.dashboard-ovic-vc .ovic_vc_options .group-item .item-vc input,
+.dashboard-ovic-vc .ovic_vc_options .group-item .item-vc select {
+    width: 100%;
+    line-height: 30px;
+    height: 38px;
+    border-radius: 3px;
+    box-shadow: none;
+}
+
+/*==========================================================================
+LOADING
+===========================================================================*/
+.ovic_vc_options.loading .group-item {
+    position: relative;
+}
+
+.ovic_vc_options.loading .group-item::before,
+.ovic_vc_options.loading .group-item::after {
+    position: absolute;
+    content: '';
+    z-index: 8;
+}
+
+.ovic_vc_options.loading .group-item::before {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.ovic_vc_options.loading .group-item::after {
+    content: url("/wp-includes/js/tinymce/skins/lightgray/img/loader.gif");
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 8;
+}
+
+@media (max-width: 1180px) {
+    .dashboard-ovic-vc .dashboard-intro > * {
+        display: block;
+        width: auto;
+    }
+}
+
+@media (max-width: 782px) {
+    .dashboard-ovic-vc .ovic_vc_options tfoot td {
+        text-align: center;
+    }
+}
+
+/*==========================================================================
+GRID SETTINGS
+===========================================================================*/
+.grid-field-settings label.checkbox {
+    position: relative;
+    width: 60px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    display: inline-block;
+}
+
+.grid-field-settings label.checkbox input {
+    display: none;
+}
+
+.grid-field-settings label.checkbox label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    height: 25px;
+    padding: 0;
+    line-height: 25px;
+    border: 2px solid #E3E3E3;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.grid-field-settings label.checkbox label:before {
+    content: "";
+    display: block;
+    width: 25px;
+    margin: 0;
+    background: #FFFFFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 33px;
+    border: 2px solid #E3E3E3;
+    border-radius: 25px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.grid-field-settings label.checkbox input:checked + label {
+    background-color: #49E845;
+}
+
+.grid-field-settings label.checkbox input:checked + label,
+.grid-field-settings label.checkbox input:checked + label:before {
+    border-color: #49E845;
+}
+
+.grid-field-settings label.checkbox input:checked + label:before {
+    right: 0;
+}
+
+.grid-field-settings {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.grid-field-settings .column {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.grid-field-settings .field-wrapper,
+.grid-field-settings .responsive-wrapper {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+    margin: 10px 0 20px;
+}
+
+.grid-field-settings .field-wrapper > *,
+.grid-field-settings .responsive-wrapper > * {
+    padding: 0 10px;
+    position: relative;
+}
+
+.grid-field-settings .responsive-wrapper > :not(:last-child) {
+    border-bottom: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.grid-field-settings .responsive-wrapper .remove {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+.grid-field-settings .responsive-wrapper .disable-vertical {
+    display: block;
+    padding: 10px 0 0;
+}
+
+.grid-field-settings .responsive-wrapper .disable-vertical input {
+    margin-top: 0;
+}
+
+/*==========================================================================
+DATA TIP
+===========================================================================*/
+.grid-field-settings [data-tip] {
+    position: relative;
+}
+
+.grid-field-settings [data-tip]:before {
+    content: '';
+    /* hides the tooltip when not hovered */
+    display: none;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #1a1a1a;
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    z-index: 8;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+}
+
+.grid-field-settings [data-tip]:after {
+    display: none;
+    content: attr(data-tip);
+    position: absolute;
+    top: 35px;
+    left: 0;
+    padding: 5px 8px;
+    background: #1a1a1a;
+    color: #fff;
+    z-index: 9;
+    font-size: 0.75em;
+    height: 18px;
+    line-height: 18px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.grid-field-settings [data-tip]:hover:before,
+.grid-field-settings [data-tip]:hover:after {
+    display: block;
+}
+
+/*==========================================================================
+ADVANCED OPTIONS
+===========================================================================*/
+.dashboard-ovic-vc .field-item {
+    margin-bottom: 15px;
+    display: inline-block;
+    position: relative;
+}
+
+.dashboard-ovic-vc .field-item .import-field {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.4ms;
+    -moz-transition: all 0.4ms;
+    -ms-transition: all 0.4ms;
+    -o-transition: all 0.4ms;
+    transition: all 0.4ms;
+}
+
+.dashboard-ovic-vc .field-item.open .import-field {
+    opacity: 1;
+    visibility: visible;
+    bottom: calc(100% + 15px);
+}
+
+.dashboard-ovic-vc .field-item .title {
+    vertical-align: middle;
+}
+
+.dashboard-ovic-vc .field-item.export {
+    float: right;
+}
+
+.dashboard-ovic-vc .field-item > * {
+    display: table-cell;
+}
+
+.dashboard-ovic-vc .field-item > *:not(:last-child) {
+    padding-right: 20px;
+}
+
+/*==========================================================================
+DATE PICKER
+===========================================================================*/
+.ovic-vc-datepicker-wrapper * {
+    float: none;
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    background: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+.ovic-vc-datepicker-wrapper .ui-datepicker {
+    margin-top: 5px;
+    width: auto;
+    background-color: #fff;
+    z-index: 9999999 !important;
+    -moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+}
+
+.ovic-vc-datepicker-wrapper .ui-widget-header,
+.ovic-vc-datepicker-wrapper .ui-datepicker-header {
+    color: #fff;
+    background: #00a0d2;
+}
+
+.ovic-vc-datepicker-wrapper .ui-datepicker-header .ui-state-hover {
+    cursor: pointer;
+}
+
+.ovic-vc-datepicker-wrapper .ui-datepicker-title {
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.ovic-vc-datepicker-wrapper .ui-datepicker-prev,
+.ovic-vc-datepicker-wrapper .ui-datepicker-next {
+    position: static;
+    top: auto;
+    left: auto;
+    right: auto;
+    font-family: FontAwesome, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    width: 41px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ovic-vc-datepicker-wrapper .ui-datepicker-next span,
+.ovic-vc-datepicker-wrapper .ui-datepicker-prev span {
+    display: none;
+}
+
+.ovic-vc-datepicker-wrapper .ui-datepicker-prev {
+    float: left;
+}
+
+.ovic-vc-datepicker-wrapper .ui-datepicker-next {
+    float: right;
+}
+
+.ovic-vc-datepicker-wrapper .ui-datepicker-prev:before {
+    content: '\f053';
+}
+
+.ovic-vc-datepicker-wrapper .ui-datepicker-next:before {
+    content: '\f054';
+}
+
+.ovic-vc-datepicker-wrapper .ui-datepicker-prev-hover,
+.ovic-vc-datepicker-wrapper .ui-datepicker-next-hover {
+    opacity: 0.75;
+}
+
+.ovic-vc-datepicker-wrapper tbody .ui-datepicker-week-col {
+    background-color: #f7f7f7;
+}
+
+.ovic-vc-datepicker-wrapper .ui-datepicker-buttonpane {
+    padding: 10px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.ovic-vc-datepicker-wrapper .ui-datepicker-buttonpane button {
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 7px 14px;
+    border: 1px solid #eee;
+    background-color: #fff;
+}
+
+.ovic-vc-datepicker-wrapper select {
+    margin: 0 4px;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.ovic-vc-datepicker-wrapper select option {
+    color: #555;
+}
+
+.ovic-vc-datepicker-wrapper table {
+    font-size: 13px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ovic-vc-datepicker-wrapper thead {
+    color: #fff;
+    background: #32373c;
+}
+
+.ovic-vc-datepicker-wrapper th {
+    text-align: center;
+    padding: 7px;
+    border: 1px solid #444;
+}
+
+.ovic-vc-datepicker-wrapper td {
+    text-align: center;
+    border: 1px solid #f4f4f4;
+}
+
+.ovic-vc-datepicker-wrapper td.ui-datepicker-other-month {
+    border: transparent;
+}
+
+.ovic-vc-datepicker-wrapper td .ui-state-default {
+    color: #555;
+    width: auto;
+    display: block;
+    padding: 6px 12px;
+}
+
+.ovic-vc-datepicker-wrapper td .ui-state-active,
+.ovic-vc-datepicker-wrapper td .ui-state-hover {
+    color: #fff;
+    background-color: #0073aa;
+}
+
+.ovic-vc-datepicker-wrapper td.ui-state-disabled .ui-state-default {
+    opacity: 0.5;
+}
+
+.vc_edit-form-tab .tabs-css {
+    text-align: right;
+    background-color: #F5F5F5;
+}

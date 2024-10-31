@@ -1,0 +1,274 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ovic: Responsive WPBakery\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-21 08:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: includes/dashboard/dashboard.php:156
+msgid "Add Screen"
+msgstr ""
+
+#: includes/visual-composer.php:186
+msgid "Advanced Options"
+msgstr ""
+
+#: includes/dashboard/dashboard.php:141
+msgid "Breakpoint"
+msgstr ""
+
+#: includes/visual-composer.php:73
+msgid "Center"
+msgstr ""
+
+#: includes/params.php:384
+msgid "Close"
+msgstr ""
+
+#: includes/visual-composer.php:354
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/visual-composer.php:274
+msgid "Custom Width"
+msgstr ""
+
+#: includes/visual-composer.php:199 includes/visual-composer.php:222
+#: includes/visual-composer.php:231 includes/visual-composer.php:243
+#: includes/visual-composer.php:254 includes/visual-composer.php:261
+#: includes/visual-composer.php:277 includes/visual-composer.php:285
+#: includes/visual-composer.php:290 includes/visual-composer.php:316
+#: includes/visual-composer.php:332 includes/visual-composer.php:341
+#: includes/visual-composer.php:349 includes/visual-composer.php:357
+msgid "Design Options"
+msgstr ""
+
+#: includes/visual-composer.php:237
+msgid "Disable Background"
+msgstr ""
+
+#: includes/visual-composer.php:248
+msgid "Disable Element"
+msgstr ""
+
+#: addon.php:103
+msgid "Documentation"
+msgstr ""
+
+#: includes/visual-composer.php:272
+msgid "Em (em)"
+msgstr ""
+
+#: includes/dashboard/dashboard.php:118
+msgid "Enable Advanced Options"
+msgstr ""
+
+#: includes/dashboard/dashboard.php:106
+msgid "Enable Screen Responsive"
+msgstr ""
+
+#: includes/visual-composer.php:340
+msgid "Enter Child Target Element Name for This Screen."
+msgstr ""
+
+#: includes/visual-composer.php:348
+msgid "Enter Child Target Name."
+msgstr ""
+
+#: includes/visual-composer.php:356
+msgid "Enter css Properties."
+msgstr ""
+
+#: includes/visual-composer.php:300
+msgid "Enter font size."
+msgstr ""
+
+#: includes/visual-composer.php:301
+msgid "Enter line height."
+msgstr ""
+
+#: includes/visual-composer.php:191 includes/visual-composer.php:368
+msgid "Extra class name"
+msgstr ""
+
+#: includes/shortcode.php:110
+msgid "File does not exist."
+msgstr ""
+
+#: addon.php:83
+msgid "for use plugin \"Ovic VC Addon\""
+msgstr ""
+
+#: includes/params.php:347
+msgid "hh:mm:ss"
+msgstr ""
+
+#: includes/visual-composer.php:203 includes/visual-composer.php:374
+msgid "Hidden ID"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://kutethemes.com/wordpress-plugins/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themeforest.net/user/kutethemes"
+msgstr ""
+
+#: includes/visual-composer.php:193 includes/visual-composer.php:370
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: includes/visual-composer.php:74
+msgid "Justify"
+msgstr ""
+
+#: includes/visual-composer.php:71
+msgid "Left"
+msgstr ""
+
+#: includes/visual-composer.php:283
+msgid "Letter Spacing"
+msgstr ""
+
+#: includes/helpers.php:107
+msgid "max-width"
+msgstr ""
+
+#: includes/dashboard/dashboard.php:138
+msgid "Media Feature"
+msgstr ""
+
+#: includes/helpers.php:110
+msgid "min-width"
+msgstr ""
+
+#: includes/params.php:341
+msgid "mm/dd/yy"
+msgstr ""
+
+#: includes/params.php:444
+msgid "modal"
+msgstr ""
+
+#: includes/dashboard/dashboard.php:135
+msgid "Name Screen"
+msgstr ""
+
+#: includes/visual-composer.php:70
+msgid "None"
+msgstr ""
+
+#. Author of the plugin
+msgid "Ovic Team"
+msgstr ""
+
+#. Name of the plugin
+msgid "Ovic: Responsive WPBakery"
+msgstr ""
+
+#: includes/visual-composer.php:270
+msgid "Percent (%)"
+msgstr ""
+
+#: includes/visual-composer.php:271
+msgid "Pixel (px)"
+msgstr ""
+
+#: includes/params.php:372
+msgid "Preview Modal"
+msgstr ""
+
+#: includes/helpers.php:135 includes/dashboard/dashboard.php:144
+msgid "Remove"
+msgstr ""
+
+#: addon.php:79
+msgid "Require plugin"
+msgstr ""
+
+#: includes/dashboard/dashboard.php:169
+msgid "Reset"
+msgstr ""
+
+#: includes/visual-composer.php:72
+msgid "Right"
+msgstr ""
+
+#: includes/dashboard/dashboard.php:162
+msgid "Save"
+msgstr ""
+
+#: includes/visual-composer.php:324
+msgid "Select font family."
+msgstr ""
+
+#: includes/visual-composer.php:325
+msgid "Select font styling."
+msgstr ""
+
+#: includes/visual-composer.php:302
+msgid "Select heading color."
+msgstr ""
+
+#: includes/visual-composer.php:299
+msgid "Select text alignment."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Support responsive all shortcode Visual Composer, add some new params, add "
+"shortcode."
+msgstr ""
+
+#: includes/visual-composer.php:346
+msgid "Target Child"
+msgstr ""
+
+#: includes/visual-composer.php:338
+msgid "Target Main"
+msgstr ""
+
+#: includes/visual-composer.php:67
+msgid "Text align"
+msgstr ""
+
+#: includes/visual-composer.php:267
+msgid "Unit"
+msgstr ""
+
+#: addon.php:104 addon.php:105
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: includes/visual-composer.php:314
+msgid "Use font family from the theme."
+msgstr ""
+
+#: includes/visual-composer.php:308
+msgid "Use theme default font family?"
+msgstr ""
+
+#: addon.php:102
+msgid "View Ovic Import Demo documentation"
+msgstr ""
+
+#: includes/visual-composer.php:273
+msgid "View Width (vw)"
+msgstr ""
+
+#: addon.php:81
+msgid "WPBakery Page Builder"
+msgstr ""

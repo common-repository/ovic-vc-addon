@@ -1,0 +1,51 @@
+/* Silence is golden. */
+.owl-slick:not(.slick-initialized) {
+  display    : flex !important;
+  flex-wrap  : nowrap !important;
+  width      : 100% !important;
+  column-gap : var(--cols-space, var(--margin)) !important;
+  overflow   : hidden !important
+}
+
+.owl-slick:not(.slick-initialized) > * {
+  display     : block !important;
+  float       : none !important;
+  flex-shrink : 0 !important;
+  width       : calc((100% - (var(--cols-space, var(--margin)) * (var(--cols-number, var(--show)) - 1))) / var(--cols-number, var(--show))) !important;
+  margin      : 0 !important
+}
+
+@media (max-width : 1499px) {
+  .owl-slick:not(.slick-initialized) {
+    --cols-number : var(--show-laptop, var(--show));
+    --cols-space  : var(--margin-laptop, var(--margin))
+  }
+}
+
+@media (max-width : 1199px) {
+  .owl-slick:not(.slick-initialized) {
+    --cols-number : var(--show-ipad, var(--show-laptop));
+    --cols-space  : var(--margin-ipad, var(--margin-laptop))
+  }
+}
+
+@media (max-width : 991px) {
+  .owl-slick:not(.slick-initialized) {
+    --cols-number : var(--show-landscape, var(--show-ipad));
+    --cols-space  : var(--margin-landscape, var(--margin-ipad))
+  }
+}
+
+@media (max-width : 767px) {
+  .owl-slick:not(.slick-initialized) {
+    --cols-number : var(--show-portrait, var(--show-landscape));
+    --cols-space  : var(--margin-portrait, var(--margin-landscape))
+  }
+}
+
+@media (max-width : 479px) {
+  .owl-slick:not(.slick-initialized) {
+    --cols-number : var(--show-mobile, var(--show-portrait));
+    --cols-space  : var(--margin-mobile, var(--margin-portrait))
+  }
+}
